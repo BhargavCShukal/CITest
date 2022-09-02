@@ -8,4 +8,8 @@ node {
 		stage('FInish') {
 		echo "finish"
 	}
+
+			stage('rollout') {
+		echo "roll"
+	}
 }
